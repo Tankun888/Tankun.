@@ -23,28 +23,5 @@
 | ลาเต้ | 300 | 20 | 10 | 0 |
 | ช็อกโกแลต | 300 | 0 | 0 | 20 |
 
----
-
-## 🧩 Class Diagram (Mermaid)
-
-```mermaid
-classDiagram
-    class Tankun {
-        -int water
-        -int coffee
-        -int milk
-        -int chocolate
-        +Tankun(int water, int coffee, int milk, int chocolate)
-        +MakeDrink(int w, int c, int m, int ch, string name)
-        +ShowStock()
-        +Refill(int w, int c, int m, int ch)
-    }
-
-    class Program {
-        +Main(string[] args)
-    }
-
-    Program --> Tankun
-
 
 
