@@ -2,9 +2,6 @@
 รหัสนักศึกษา:683450064-0
 
 
-## 🧩 Class Diagram
-
-```mermaid
 classDiagram
     class Program {
         +Main(string[] args)
@@ -22,4 +19,3 @@ classDiagram
     }
 
     Program --> Tankun
-
